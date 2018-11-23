@@ -1,0 +1,138 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: -1px;
+
+}
+
+                /* main CSS - background, navbar, footer*/
+
+#index-front {
+    background: url("images/another.jpeg");
+    background-size: cover;
+    background-position: justify;
+    padding-top: 70px;
+}
+
+            
+/* navbar */
+ .navbar-brand, .navbar-inverse a{
+                color: #e7dfdd;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 1.5em;
+                
+                
+                
+                
+               
+  }
+.navbar-inverse .navbar-nav>li>a {
+                color: rgb(228, 120, 69);
+                font-size: 1.5em;
+                font-weight: 600;
+                
+                
+              }            
+.navbar-inverse {
+    background: black;
+    opacity: 0.7;
+
+}
+
+/* nav transition */
+
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+    transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+
+} 
+
+.navbar-inverse .navbar-nav>li>a {
+   transition: all .4s ease-in;
+   -webkit-transition: all .4s ease-in;
+   -moz-transition: all .4s ease-in;
+   -o-transition: all .4s ease-in;
+   
+}
+
+/* end of navbar */
+
+/* footer */
+
+.footer {
+    background: black;
+    opacity: 0.7;
+    padding: 8px;
+  }
+
+.fab {
+    padding: 6px;
+    
+
+}
+.footer a {
+    color: #e7dfdd;
+    font-size: 25px;
+
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+   -moz-transition: all .4s ease;
+   -o-transition: all .4s ease;
+    
+  } 
+
+.footer a:hover {
+    color: rgb(228, 120, 69);
+}
+
+p {
+    color: white;
+}
+
+/* footer end */
+
+            /* front page */
+
+.front-content {
+    padding-bottom: 500px;
+    
+    
+
+}
+.front-header {
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+  
+    
+
+}
+.front-header2 {
+    color: rgb(10, 28, 44);
+    font-weight: 500;
+    font-size: 2em;
+    
+}
+.front-header2 a {
+    color: rgb(13, 42, 68);
+    font-size: 26px;
+    padding: 0px;
+}
+
+#image-container {
+    align-content: center;
+    text-align: center;
+    
+}
+img {
+    opacity: 0.9;
+}
+
+
+
