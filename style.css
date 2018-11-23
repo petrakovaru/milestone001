@@ -17,6 +17,7 @@
     padding-top: 70px;
 }
 
+
             
 /* navbar */
  .navbar-brand, .navbar-inverse a{
@@ -136,3 +137,29 @@ img {
 
 
 
+            /* media queries */
+
+            @media only screen and (max-width: 600px) { 
+
+                #index-front {
+                    background-image: url("images/anothermobile.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    
+                }
+            
+                .front-content {
+                    padding-top: 500px;
+                    padding-bottom: 0px;
+                    
+                    
+                }
+                #image-container {
+                    background:  #f2f3f5;
+                    padding: 5px;
+                }
+                img {
+                    border: 1px solid black;
+                }
+            
+            }           
