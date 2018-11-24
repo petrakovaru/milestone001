@@ -16,6 +16,8 @@
     background-size: cover;
     background-position: justify;
     padding-top: 70px;
+
+    transition: all .5s ease-out;
     
     
 }
