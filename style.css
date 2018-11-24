@@ -10,11 +10,45 @@
 
                 /* main CSS - background, navbar, footer*/
 
+
 #index-front {
     background: url("images/another.jpeg");
     background-size: cover;
     background-position: justify;
     padding-top: 70px;
+    
+    
+}
+
+/* transition of front bg picture on hover */
+
+#index-front:hover {
+    background: url("images/bwanother.jpg");
+    background-size: cover;
+    background-position: justify;
+    padding-top: 70px;
+
+    transition-delay: 2s;
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    -moz-transition-delay: 2s;
+    -moz-transition-duration: 5s;
+    -moz-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    -o-transition-delay: 2s;
+    -o-transition-duration: 5s;
+    -o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+    
+}
+
+/* end of transition */
+
+#gallery-front {
+    background: url("images/desktopg.jpeg");
+    background-size: cover;
+    background-position: justify;
+    padding-top: 70px;
+    
 }
 
 
@@ -44,6 +78,18 @@
 
 }
 
+/* headers */
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+
+}
+
 /* nav transition */
 
 .navbar-inverse .navbar-brand, .navbar-inverse a{
@@ -69,7 +115,8 @@
 .footer {
     background: black;
     opacity: 0.7;
-    padding: 8px;
+    margin-left: 2px;
+    
   }
 
 .fab {
@@ -79,7 +126,9 @@
 }
 .footer a {
     color: #e7dfdd;
-    font-size: 25px;
+    font-size: 28px;
+    padding: 3px;
+    text-align: center;
 
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
@@ -92,9 +141,13 @@
     color: rgb(228, 120, 69);
 }
 
-p {
+.copyright {
     color: white;
+    margin: 0px;
+   
+    
 }
+
 
 /* footer end */
 
@@ -108,20 +161,43 @@ p {
 }
 .front-header {
     color: black;
-    font-weight: 600;
-    font-size: 2em;
+    font-weight: 800;
+    font-size: 2.5em;
   
-    
+
+    /* front-header2 animation */
 
 }
 .front-header2 {
     color: rgb(10, 28, 44);
     font-weight: 500;
     font-size: 2em;
+
+    animation-name: RightToLeft;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    
     
 }
+
+@keyframes RightToLeft {
+0% { 
+    opacity: 0;
+    transform: translateX(-30px);
+
+}
+
+100% {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+}
+
+ /* end of front-header2 animation */
+
 .front-header2 a {
-    color: rgb(13, 42, 68);
+    color:rgb(10, 28, 44);
     font-size: 26px;
     padding: 0px;
 }
@@ -135,31 +211,35 @@ img {
     opacity: 0.9;
 }
 
+img:hover {
+    
+}
 
 
-            /* media queries */
 
-            @media only screen and (max-width: 600px) { 
+            /* media */
 
-                #index-front {
-                    background-image: url("images/anothermobile.jpg");
-                    background-position: center;
-                    background-size: cover;
+ @media only screen and (max-width: 600px) { 
+
+    #index-front {
+            background-image: url("images/anothermobile.jpg");
+            background-position: center;
+             background-size: cover;
                     
                 }
             
-                .front-content {
-                    padding-top: 500px;
-                    padding-bottom: 0px;
+    .front-content {
+            padding-top: 500px;
+            padding-bottom: 0px;
                     
                     
                 }
-                #image-container {
-                    background:  #f2f3f5;
-                    padding: 5px;
+     #image-container {
+        background:  #f2f3f5;
+        padding: 5px;
                 }
-                img {
-                    border: 1px solid black;
+    img {
+         border: 1px solid black;
                 }
             
             }           

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Niramit|Poiret+One" rel="stylesheet">
+
+
+
+
+
+    <!-- my CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>// ANGEL OLSEN //</title>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".fancybox").fancybox();
+        });
+        $(document).ready(function () {
+            $("#pic1").fancybox({
+                helpers: {
+                    title: {
+                        type: 'float'
+                    }
+                }
+            });
+            $("#pic2").fancybox({
+                openEffect: 'elastic',
+                closeEffect: 'elastic',
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    }
+                }
+            });
+            $("#pic3").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    }
+                }
+            });
+            $("#pic4").fancybox({
+                helpers: {
+                    title: {
+                        type: 'over'
+                    }
+                }
+            });
+            $("#pic5").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    }
+                }
+            }); $("#pic6").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    }
+                }
+            }); $("#pic7").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    }
+                }
+            });
+            $("#pic8").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    }
+                }
+            });
+            $("#pic9").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    }
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body id="gallery-front">
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Angel Olsen</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of nav bar -->
+
+
+
+
+                                     <!-- main content -->
+
+    <!-- header -->
+    <h2>Gallery</h3>
+
+    <!-- header end -->
+
+
+    <!-- gallery start -->
+    
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <a id="pic1" href="images/2.jpg">
+                        <img src="images/2.jpg" "img-responsive">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+
+                <div class="thumbnail">
+                    <a id="pic2" href="images/3.jpg">
+                        <img src="images/3.jpg" "img-responsive">
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-6">
+
+                <div class="thumbnail">
+                    <a id="pic3" href="images/4.jpg">
+                        <img src="images/4.jpg" "img-responsive">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+
+                <div class="thumbnail">
+                    <a id="pic4" href="images/9.jpg">
+                        <img src="images/9.jpg" "img-responsive">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+
+                <div class="thumbnail">
+                    <a id="pic5" href="images/6.jpg">
+                        <img src="images/6.jpg" "img-responsive">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <a id="pic6" href="images/7.jpg">
+                        <img src="images/7.jpg" "img-responsive">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <a id="pic7" href="images/11.jpg">
+                        <img src="images/11.jpg" "img-responsive">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <a id="pic8" href="images/14.jpg" "img-responsive">
+                        <img src="images/14.jpg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <a id="pic9" href="images/band.jpg" "img-responsive">
+                        <img src="images/band.jpg" "img-responsive">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- gallery end -->
+
+
+
+
+    <!-- sidebar -->
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <a href="https://www.facebook.com/angelolsenmusic/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/angelolsenmusic/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/angelolsen?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UC9p8x80IJBj251fDyGENdgA" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://open.spotify.com/artist/6mKqFxGMS5TGDZI3XkT5Rt" target="_blank"><i class="fab fa-spotify"></i></a>
+
+            <p class="copyright">&copy; 2018 Petra Kovaru (educational purpose only)
+            </p>
+
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
