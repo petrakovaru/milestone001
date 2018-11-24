@@ -249,7 +249,7 @@ h2 {
     
     
 }
-img {
+.album-image {
     margin-top: 30px;
     opacity: 0.9;
     transform: scale(1);
@@ -258,7 +258,7 @@ img {
     
 }
 
-img:hover { 
+.album-image:hover { 
     transform: scale(0.9);
     
 }
