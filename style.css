@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit|Poiret+One');
 
 
 * {
@@ -25,33 +26,39 @@
 }
 
 
-
-
 #gallery-front, #media-front {
-    background: #FFFAFA;
+    background: #e1d8e7;
+    background: linear-gradient(to bottom, #c9d4ec 0, #e9d1c9 100%);
     background-size: cover;
     background-position: top;
     padding-top: 70px;
     
 }
 
-.carousel {
-    margin-bottom: 50px;
-    margin-top: 0px;
-} 
+.jumbotron {
+    background-color: transparent;
+    opacity: 0.9;
+    font-weight: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
 
+}
 
-            
-/* navbar */
+h1 {
+    padding-bottom: 10px;
+    animation-name: RightToLeft;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+
+}
+                    /* NAVBAR      */
+
  .navbar-brand, .navbar-inverse a{
                 color: #e7dfdd;
                 font-weight: 600;
                 text-transform: uppercase;
                 font-size: 1.5em;
-                
-                
-                
-                
+                             
                
   }
 .navbar-inverse .navbar-nav>li>a {
@@ -67,12 +74,6 @@
 
 }
 
-/* headers */
-
-h2 {
-   
-
-}
 
 /* nav transition */
 
@@ -92,9 +93,10 @@ h2 {
    
 }
 
-/* end of navbar */
+            /* END OF NAVBAR */
 
-/* footer */
+
+                /* FOOTER     */
 
 .footer {
     background: black;
@@ -136,28 +138,13 @@ h2 {
    
     
 }
+        /* END OF FOOTER */
 
 
-/* footer end */
+                     /*   FRONT PAGE            */
 
 
-
-
-
-
-
-                     /* front page */
-
-.front-content {
-   
-    
-    
-    
-
-}
-
-.headers {
-}
+                    /* HEADERS */
 .front-header {
     color: black;
     font-weight: 600;
@@ -172,7 +159,10 @@ h2 {
     animation-delay: 1s;
 
     
-}
+} 
+
+                  /* ANIMATIONS */
+
 /* front header animation */
 
 @keyframes LeftToRight{
@@ -198,11 +188,7 @@ h2 {
     text-align: center;
     padding-top: 40px;
     
-    
-    
-    
-
-    animation-name: RightToLeft;
+     animation-name: RightToLeft;
     animation-duration: 2s;
     animation-delay: 1s;
     
@@ -259,20 +245,15 @@ h2 {
     
 }
 
-            /* gallery page */
+                    /* GALLERY PAGE */
 
+.carousel {
+    margin-bottom: 50px;
+    margin-top: 0px;
+} 
 
+                    /* MEDIA PAGE */
 
-
-
-        /* media front page */
-
- .jumbotron {
-     background-color: transparent;
-     opacity: 0.9;
-     margin-left: 10%;
-     margin-right: 10%;
- }
 
  .audio {
     
@@ -299,6 +280,29 @@ h2 {
 
 
 
+                        /* ABOUT ME PAGE */
+
+
+.first {
+    background-color: #FAFAFA;
+    color: black;
+    text-align: center;
+    font-family: 'Niramit', cursive !important;
+    padding: 60px;
+    font-size: 23px;
+    
+}
+
+
+
+hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+    
+}
+
 
 
 
@@ -307,6 +311,17 @@ h2 {
             /* mobile version */
 
  @media only screen and (max-width: 600px) { 
+
+
+    .first {
+        font-size: 20px;
+    }
+
+    .blockquote {
+        font-size: 22px;
+    }
+
+    
 
     #index-front {
             background-image: url("images/anothermobile.jpg");
@@ -329,4 +344,8 @@ h2 {
          border: 1px solid black;
                 }
             
-            }           
+            }  
+            
+    .footer { margin-top: 0px;
+
+    }
