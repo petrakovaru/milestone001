@@ -12,7 +12,7 @@
 
 
 #index-front {
-    background: url("images/another.jpeg");
+    background: url("images/another.jpeg") no-repeat;
     background-size: inherit;
     background-position: 20px 40px 20px 20px;
     
@@ -21,23 +21,24 @@
     
     width: 100%;
     height: 100%;
-   
-
-    
-    
     
 }
 
 
-/* end of transition */
 
-#gallery-front {
-    background: url("images/desktopg.jpeg");
+
+#gallery-front, #media-front {
+    background: #FFFAFA;
     background-size: cover;
     background-position: top;
     padding-top: 70px;
     
 }
+
+.carousel {
+    margin-bottom: 50px;
+    margin-top: 0px;
+} 
 
 
             
@@ -69,12 +70,7 @@
 /* headers */
 
 h2 {
-    font-size: 35px;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-weight: 600;
-    text-transform: uppercase;
-    
+   
 
 }
 
@@ -103,9 +99,9 @@ h2 {
 .footer {
     background: black;
     opacity: 0.7;
+
     margin-left: 2px;
-    position: fixed;
-    bottom: 0;
+    margin-top: 60px;
     width: 100%;
 
     
@@ -263,9 +259,52 @@ h2 {
     
 }
 
+            /* gallery page */
 
 
-            /* media */
+
+
+
+        /* media front page */
+
+ .jumbotron {
+     background-color: transparent;
+     opacity: 0.9;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+
+ .audio {
+    
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+            
+            
+        }
+        
+    blockquote {
+            background-color:transparent;
+            color: black;
+            padding: 10px;
+            font-size: 25px;
+            letter-spacing: 4px;
+        }
+        
+     .embed-responsive-item {
+            padding-bottom: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+            /* mobile version */
 
  @media only screen and (max-width: 600px) { 
 
