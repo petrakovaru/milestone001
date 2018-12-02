@@ -27,8 +27,9 @@
 
 
 #gallery-front, #media-front {
-    background: #e1d8e7;
-    background: linear-gradient(to bottom, #DBE6F6 0, #C5796D 100%);
+    
+    background: linear-gradient(to bottom, #DBE6F6 0, #E8CBC0 100%);
+    
     background-size: cover;
     background-position: top;
     padding-top: 70px;
@@ -49,6 +50,12 @@ h1 {
     animation-name: RightToLeft;
     animation-duration: 2s;
     animation-delay: 0.5s;
+
+}
+
+h2 { padding-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
 
 }
                     /* NAVBAR      */
@@ -301,6 +308,83 @@ hr {
     
     
     
+}
+
+
+                            /* CONTACT FORM PAGE */
+
+
+
+#form {
+    
+    padding: 20px;
+   
+    
+      
+    
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(48, 47, 47);
+    
+
+}
+
+.icon {
+    font-size: 25px;
+    color: rgb(111, 167, 231);
+}
+
+.btn-primary {
+    border-color: rgb(228, 120, 69);
+    background-color: rgb(228, 120, 69);
+    color: rgb(48, 47, 47);;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.btn-primary
+   {
+    transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+  }  
+
+.form-control {
+    font-size: 15px;
+    color: black;
+    border: transparent;
+   
+
+    
+
+}
+    
+
+}
+
+.well {
+    background-color:rgb(240, 237, 226);
+    border: transparent
+    ;
+    
+}
+.well-sm {
+    border-color: #6E7889;
+    
+}
+                /* END OF CONTACT PAGE */
+
+
+                /* TOUR PAGE */
+.table {
+    background-color: #FAFAFA;
+    font-size: 1.5em;
+    font-weight: 500;
 }
 
 
