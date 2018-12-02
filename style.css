@@ -28,7 +28,7 @@
 
 #gallery-front, #media-front {
     background: #e1d8e7;
-    background: linear-gradient(to bottom, #c9d4ec 0, #e9d1c9 100%);
+    background: linear-gradient(to bottom, #DBE6F6 0, #C5796D 100%);
     background-size: cover;
     background-position: top;
     padding-top: 70px;
@@ -344,8 +344,10 @@ hr {
          border: 1px solid black;
                 }
             
-            }  
             
-    .footer { margin-top: 0px;
+            
+    .footer {
+        margin-top: 0px;
+    }
 
     }
