@@ -387,14 +387,21 @@ legend {
     font-weight: 500;
 }
 
-
-
-
-
+            /*large desktop version*/
+@media only screen and (max-width: 1920px) {
+    
+  
+#index-front {
+            background-image: url("images/anothermobile.jpg");
+            background-position: center;
+             background-size: cover;
+                    
+                }
+}
 
             /* mobile version */
 
- @media only screen and (max-width: 600px) { 
+ @media only screen and (max-width: 600px) 
 
     body {
         font-size: 15px;
